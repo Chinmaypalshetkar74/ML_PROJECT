@@ -9,7 +9,7 @@ app=application
 
 ##import ridge regressor and standard scaler pickel
 Ridge_model=pickle.load(open('models/Ridge.pkl','rb'))
-Standard_Scaler=pickle.load(open('models/scaler .pkl','rb'))
+Standard_Scaler=pickle.load(open('models/scaler.pkl','rb'))
 
 
 @app.route("/")
